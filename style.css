@@ -1,0 +1,19 @@
+/* Custom styles */
+
+/* Ensure fixed navbar does not overlap content */
+body {
+    padding-top: 56px; /* Adjust according to your navbar height */
+  }
+  
+  /* Example additional styling */
+  section {
+    padding: 40px 0;
+  }
+  
+  /* Adjustments for smaller screens */
+  @media (max-width: 768px) {
+    body {
+      padding-top: 0;
+    }
+  }
+  
